@@ -59,7 +59,11 @@
      共6栋学生公寓，每栋楼7层，每层30个房间，其中一楼不住人，共有900个房间，每个房间设置一个信息点
       
    2. 针对用户需求，我们采用了千兆骨干、百兆到桌面，整个网络采用分布式三层交换构架，具有超高的带宽和良好的可扩展、可管理性。每个学生公寓设置一台核心交换机（第二层交换机），每楼层设置两台交换机（第三层交换机），网络主干线从网络管理中心拉出，分别到达每个学生公寓的核心交换机，每楼层的交换机直接和本楼的核心交换机相连，满足基本的建网需求。
-   
+ ![Alt text](https://github.com/tingyu0408/network_design/blob/master/1.png )  
+ ![Alt text](https://github.com/tingyu0408/network_design/blob/master/2.png )   
+ ![Alt text](https://github.com/tingyu0408/network_design/blob/master/3.png )   
+ ![Alt text](https://github.com/tingyu0408/network_design/blob/master/4.png )   
+ 
    3.  IP地址分配与子网划分方案
      抽取学校中的学生公寓6栋 ,  每栋公寓6 层， 每层有30个房间， 共有 房间900 间 。 在此基础上,进行地址划分 。      
       设计方案      
